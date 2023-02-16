@@ -65,7 +65,7 @@ body {
     border-radius: 10px;
 }
 
-.nav__link:hover(:not .menu-btn-open) {
+.nav__link:not(.menu-btn-open):hover {
     background-color: #04AA6D;
 }
 
