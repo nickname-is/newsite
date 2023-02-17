@@ -1,6 +1,6 @@
 /* Подключение navbar во все элементы с id="nav" */
-$("#nav").load("../components/navbar.html");
-$("#menu").load("../components/navbar.html");
+$("#nav").load("/components/navbar.html");
+$("#menu").load("/components/navbar.html");
 
 /* Чтобы страница загружалась всегда сверху */
 $(document).ready(function(){
