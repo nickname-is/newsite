@@ -1,5 +1,5 @@
 /* Подключение navbar во все элементы с id="nav" */
-$("#nav").load("newsite/components/navbar.html");
+$("#nav").load("./components/navbar.html");
 $("#menu").load("./components/navbar.html");
 
 if (localStorage.getItem("darkMode") === "dark") {
