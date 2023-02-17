@@ -78,6 +78,10 @@ body {
     color: var(--text-color);
 }
 
+#nav > * .dropdown__content a:hover {
+    color: var(--text-dark);
+}
+
 #nav > * .dropdown__content {
     visibility: hidden;
     position: absolute;
