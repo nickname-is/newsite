@@ -1,6 +1,6 @@
 /* Подключение navbar во все элементы с id="nav" */
-$("#nav").load("/components/navbar.html");
-$("#menu").load("/components/navbar.html");
+$("#nav").load("./components/navbar.html");
+$("#menu").load("./components/navbar.html");
 
 if (localStorage.getItem("darkMode") === "dark") {
     document.body.classList.add("dark");
